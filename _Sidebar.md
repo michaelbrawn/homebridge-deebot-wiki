@@ -1,6 +1,7 @@
 **Setup**
 * [[Installation (Homebridge)]]
 * [[Installation (HOOBS)]]
+* [[Configuration]]
 * [[Beta Version]]
 
 **About**
