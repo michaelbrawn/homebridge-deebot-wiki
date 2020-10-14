@@ -39,6 +39,6 @@ The following entries are also available to configure through the `homebridge-co
 <td><code>hideBattHumidity</code></td>
 <td align="center"><code>bool</code></td>
 <td align="center"><code>false</code></td>
-<td>If enabled, the humidity sensor showing the battery percentage will be hidden</td>
+<td>If set to <code>true</code> then the humidity sensor showing the battery percentage will be hidden</td>
 </tr>
 </table>
