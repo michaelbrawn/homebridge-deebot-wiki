@@ -8,5 +8,5 @@ Manually installing plugins within HOOBS is very advanced. For more information 
 A configuration screen will appear after installing the plugin where you can enter your ECOVACS credentials.
 
 Please see the [[Configuration]] page for JSON configuration templates and other optional settings.
-### 3. Restart HOOBS
-And voila your Deebot devices *should* be added to your HOOBS instance.
+### 3. HOOBS Restart
+After saving your configuration, HOOBS will automatically restart and voila your eWeLink devices *should* be added to your HOOBS instance.
