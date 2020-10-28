@@ -30,15 +30,27 @@ The following entries are also available to configure through the `homebridge-co
 <td>If set to <code>true</code> then more information will be added to the Homebridge log.</td>
 </tr>
 <tr>
-<td><code>ref</code></td>
+<td><code>hideBattHumidity</code></td>
+<td align="center"><code>bool</code></td>
+<td align="center"><code>false</code></td>
+<td>If set to <code>true</code> then the humidity sensor showing the battery percentage will be hidden.</td>
+</tr>
+<tr>
+<td><code>refreshTime</code></td>
 <td align="center"><code>integer</code></td>
 <td align="center"><code>120</code></td>
 <td>An interval (in seconds) in which your devices will refresh with ECOVACS.</td>
 </tr>
 <tr>
-<td><code>hideBattHumidity</code></td>
-<td align="center"><code>bool</code></td>
-<td align="center"><code>false</code></td>
-<td>If set to <code>true</code> then the humidity sensor showing the battery percentage will be hidden.</td>
+<td><code>lowBattThreshold</code></td>
+<td align="center"><code>integer</code></td>
+<td align="center"><code>20</code></td>
+<td>The battery percentage at which Homebridge should display a low battery status.</td>
+</tr>
+<tr>
+<td><code>motionDuration</code></td>
+<td align="center"><code>integer</code></td>
+<td align="center"><code>30</code></td>
+<td>The length of time (in seconds) that the motion detector in Homebridge will be activated if your Deebot sends a message or needs help. The message sent is viewable in the Homebridge logs.</td>
 </tr>
 </table>
