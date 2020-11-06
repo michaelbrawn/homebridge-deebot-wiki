@@ -2,6 +2,8 @@ If you're feeling brave, I also have a beta version, often with new features or 
 
 There is no need to uninstall your current version of homebridge-deebot for any of these platforms.
 
+> You will need to restart Homebridge/HOOBS after installing a new version of this plugin
+
 ### Homebridge UI (config-ui-x)
 
 You can use the `Install Previous Version` feature to install a beta version.
