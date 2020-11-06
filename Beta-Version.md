@@ -28,7 +28,19 @@ sudo npm install homebridge-deebot@latest -g
 
 ### HOOBS
 
-Coming soon.
+Please make sure you have already installed the latest version of the plugin through the HOOBS user interface. Then via the HOOBS terminal, to install the beta run these commands separately:
+
+```bash
+cd ~/.hoobs/
+npm install homebridge-deebot@beta
+```
+
+To revert back to the stable version, run the following commands in your HOOBS terminal.
+
+```bash
+cd ~/.hoobs/
+npm install homebridge-deebot@latest
+```
 
 ### Further Updates
 
