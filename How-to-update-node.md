@@ -1,6 +1,6 @@
-At the time of writing, the current LTS version of node.js is v14.15.0 as is the version I recommend to all users.
+At the time of writing, the current LTS version of node.js is v14.15.X as is the version I recommend to all users.
 
-> Note that v15.2.0 is not recommended (although it may *seem* like a newer version)
+> Note that v15.2.X is not recommended
 
 You will need to restart Homebridge/HOOBS after updating your version of node
 
