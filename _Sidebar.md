@@ -2,10 +2,10 @@
 * [[Installation (Homebridge)]]
 * [[Installation (HOOBS)]]
 * [[Configuration]]
-* [[Beta Version]]
 
 **Features**
 * [[Supported Devices]]
+* [[Beta Version]]
 
 **About**
 * [About Me](https://github.com/sponsors/bwp91)
