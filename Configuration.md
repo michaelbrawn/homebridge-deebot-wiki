@@ -2,8 +2,8 @@
 Add the following to your configuration file in the appropriate place. These following are the basic required fields.
 ```json
 {
-   "countryCode": "your-ecovacs-country-code",
    "name": "Deebot",
+   "countryCode": "your-ecovacs-country-code",
    "username": "your-ecovacs-username",
    "password": "your-ecovacs-password",
    "platform": "Deebot"
