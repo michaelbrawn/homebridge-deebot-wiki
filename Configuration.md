@@ -41,7 +41,7 @@ Add the following to your Homebridge configuration file in the appropriate place
 <tr>
 <td><code>hideBattHumidity</code></td>
 <td align="center"><code>bool</code></td>
-<td align="center"><code>false</code></td>
+<td align="center"><code>true</code></td>
 <td>If <code>true</code>, the humidity sensor showing the battery percentage will be hidden.</td>
 </tr>
 <tr>
