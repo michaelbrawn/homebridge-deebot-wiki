@@ -2,7 +2,7 @@ If you're feeling brave, I also have a beta version, often with new features or 
 
 There is no need to uninstall your current version of homebridge-deebot for any of these platforms.
 
-> You will need to restart Homebridge/HOOBS after installing a new version of this plugin
+You will need to restart Homebridge/HOOBS after installing a new version of this plugin
 
 ### Homebridge UI (config-ui-x)
 
@@ -30,9 +30,9 @@ sudo npm install homebridge-deebot@latest -g
 
 ### HOOBS
 
-> If you encounter permission issues, you should try stopping the HOOBS service and trying these commands again.
+**Please make sure you have already installed the latest version of the plugin through the HOOBS user interface.**
 
-Please make sure you have already installed the latest version of the plugin through the HOOBS user interface. Then via the HOOBS terminal, to install the beta run these commands separately:
+First stop the HOOBS service. Then using the HOOBS terminal run these commands separately:
 
 ```bash
 cd ~/.hoobs/
