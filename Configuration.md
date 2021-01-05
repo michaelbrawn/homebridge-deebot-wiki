@@ -39,10 +39,10 @@ Add the following to your configuration file in the appropriate place. These fol
 <td>The length of time (in seconds) that the motion detector will be activated if your Deebot sends a message or needs help. The message is viewable in the log.</td>
 </tr>
 <tr>
-<td><code>hideBattHumidity</code></td>
+<td><code>showBattHumidity</code></td>
 <td align="center"><code>bool</code></td>
-<td align="center"><code>true</code></td>
-<td>If <code>true</code>, the humidity sensor showing the battery percentage will be hidden.</td>
+<td align="center"><code>false</code></td>
+<td>If <code>true</code>, a humidity sensor showing the battery percentage will be shown.</td>
 </tr>
 <tr>
 <td><code>debug</code></td>
