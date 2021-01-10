@@ -33,16 +33,16 @@ Add the following to your configuration file in the appropriate place. These fol
 <td>If <code>true</code>, more information will be added to the log.</td>
 </tr>
 <tr>
-<td><code>ignoredDevices</code></td>
-<td align="center"><code>string</code></td>
-<td align="center"><code>""</code></td>
-<td>A list of devices to ignore by device id. For example <code>"E2000000000000000000"</code> or multiple separated with a comma.</td>
-</tr>
-<tr>
 <td><code>disablePlugin</code></td>
 <td align="center"><code>bool</code></td>
 <td align="center"><code>false</code></td>
 <td>If <code>true</code>, the plugin will remove all accessories and not load the plugin on restart.</td>
+</tr>
+<tr>
+<td><code>ignoredDevices</code></td>
+<td align="center"><code>string</code></td>
+<td align="center"><code>""</code></td>
+<td>A list of devices to ignore by device id. For example <code>"E2000000000000000000"</code> or multiple separated with a comma.</td>
 </tr>
 <tr>
 <td><code>motionDuration</code></td>
