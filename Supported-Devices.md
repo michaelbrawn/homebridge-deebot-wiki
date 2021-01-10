@@ -3,14 +3,14 @@ These models have been confirmed to work with this plugin:
 * N79S
 * 907
 
-These models are supported by the `ecovacs-deebot.js` client so should work with this plugin:
+These models are supported by the `ecovacs-deebot` client so should work with this plugin:
 
 * 900/901
 * Ozmo 920
 * Ozmo 930
 * Ozmo 950
 
-These models are known to work by the `ecovacs-deebot.js` client so should work with this plugin:
+These models are known to work by the `ecovacs-deebot` client so should work with this plugin:
 
 * Slim 2
 * 600/601
