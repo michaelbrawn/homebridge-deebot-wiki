@@ -22,7 +22,7 @@ These models are known to work by the `ecovacs-deebot` client so should work wit
 * Ozmo T8 AIVI
 * Ozmo Slim 10
 
-These models might work by the `ecovacs-deebot.js` client so might work with this plugin:
+These models might work by the `ecovacs-deebot` client so might work with this plugin:
 
 * M88
 * 605
