@@ -24,7 +24,7 @@ Add the following to your configuration file in the appropriate place. These fol
 <td><code>refreshTime</code></td>
 <td align="center"><code>integer</code></td>
 <td align="center"><code>120</code></td>
-<td>An interval (in seconds) in which your devices will refresh with ECOVACS. Must be between 30 and 1800.</td>
+<td>An interval (in seconds) in which your devices will refresh with ECOVACS. Must be 30 or more.</td>
 </tr>
 <tr>
 <td><code>disableDeviceLogging</code></td>
