@@ -27,6 +27,12 @@ Add the following to your configuration file in the appropriate place. These fol
 <td>An interval (in seconds) in which your devices will refresh with ECOVACS. Must be between 30 and 1800.</td>
 </tr>
 <tr>
+<td><code>disableDeviceLogging</code></td>
+<td align="center"><code>bool</code></td>
+<td align="center"><code>false</code></td>
+<td>If <code>true</code>, device updates will not be added to the log.</td>
+</tr>
+<tr>
 <td><code>debug</code></td>
 <td align="center"><code>bool</code></td>
 <td align="center"><code>false</code></td>
