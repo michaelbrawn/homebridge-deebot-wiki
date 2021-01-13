@@ -1,4 +1,4 @@
-### Required Settings
+## Required Settings
 Add the following to your configuration file in the appropriate place. These following are the basic required fields.
 ```json
 {
@@ -9,10 +9,12 @@ Add the following to your configuration file in the appropriate place. These fol
    "platform": "Deebot"
 }
 ```
-> Please note the `"platform": "Deebot"` line **must not** be changed.
+⚠️ The `"platform": "Deebot"` line **must not** be changed.
 
 > `countryCode` must be one of `AU`, `BE`, `CH`, `CN`, `DE`, `DK`, `ES`, `FR`, `HK`,`IN`, `IT`, `JP`, `KR`, `MX`, `MY`, `NL`, `NO`, `PT`, `SE`, `SG`, `TH`, `TW`,`UK`, `US`, `OTHER`
-### Optional Settings
+
+## Optional Settings
+
 <table>
 <thead>
 <th>Entry</th>
