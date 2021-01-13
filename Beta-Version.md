@@ -1,10 +1,8 @@
 If you're feeling brave, I also have a beta version, often with new features or code changes that needs testing. There are different methods of updating, based on the platform that you are running Homebridge on, or if you are using HOOBS.
 
-There is no need to uninstall your current version of homebridge-deebot for any of these platforms.
+There is no need to uninstall your current version of the plugin for any of these platforms.
 
-You will need to restart Homebridge/HOOBS after installing a new version of this plugin
-
-### Homebridge UI (config-ui-x)
+## Homebridge UI
 
 You can use the `Install Previous Version` feature to install a beta version.
 
@@ -12,9 +10,9 @@ You can use the `Install Previous Version` feature to install a beta version.
 
 This icon can be used to select a version of the plugin to install. The latest beta version is usually at the top of the list.
 
-### Homebridge CLI
+## Homebridge CLI
 
-> These commands will only work if you are using a platform which installs plugins globally.
+These commands will only work if you are using a platform which installs plugins globally.
 
 To install the beta, run the following command in your Homebridge terminal. 
 
@@ -28,9 +26,11 @@ To revert back to the stable version, run the following command in your Homebrid
 sudo npm install homebridge-deebot@latest -g
 ```
 
-### HOOBS
+You will need to restart Homebridge each time you change the version of the plugin.
 
-**Please make sure you have already installed the latest version of the plugin through the HOOBS user interface.**
+## HOOBS UI
+
+⚠️ Make sure you have already installed the latest version of the plugin through the HOOBS UI.
 
 First stop the HOOBS service. Then using the HOOBS terminal run these commands separately:
 
@@ -46,9 +46,11 @@ cd ~/.hoobs/
 npm install homebridge-deebot@latest
 ```
 
-### Further Updates
+You will need to restart HOOBS each time you change the version of the plugin.
+
+## Further Updates
 
 A limitation of the beta version is that further beta updates are not displayed. To update to the latest beta (or check if an update is available) simply use the same command as above to install the beta. An update will display in Homebridge/HOOBS once the beta has been released as the stable version.
 
-### Feedback
+## Feedback
 If you experience an issue with the beta package then please create an issue on GitHub and mention that you are using the beta 😄.
