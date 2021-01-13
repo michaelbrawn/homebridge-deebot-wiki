@@ -2,6 +2,7 @@
 * [[Installation (Homebridge)]]
 * [[Installation (HOOBS)]]
 * [[Configuration]]
+* [[Country Codes]]
 
 **Features**
 * [[Supported Devices]]
