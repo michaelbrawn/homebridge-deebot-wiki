@@ -10,14 +10,15 @@ Once removed, Homebridge will automatically restart and the accessory should be 
 
 If the above option isn't available or you use HOOBS you can use the `ignoredDevices` configuration option.
 
-1. Add the Device ID to the "Ignored Devices" settings entry
-2. Click "Save Changes"
-3. Restart Homebridge (HOOBS should automatically restart)
-3. If you watch the logs during the restart, you should see a message that says something like:
+1. Open the plugin "Configuration" (HOOBS) or "Settings" (Homebridge UI) screen
+2. Add the Device ID to the "Ignored Devices" settings entry
+3. Click "Save Changes"
+4. Restart Homebridge (HOOBS should automatically restart)
+5. If you watch the logs during the restart, you should see a message that says something like:
 
 ```13/01/2021, 06:52:20 [plugin] [Device] has been removed from Homebridge.```
 
-4. Once it has been removed, you should return to the Configuration and remove the Device ID from the "Ignored Devices"
-5. Click "Save Changes"
-6. Restart Homebridge again (HOOBS should automatically restart)
-7. The accessory should be re-added by the plugin (you can verify this through the logs)
+6. Once it has been removed, you should return to the configuration and remove the Device ID from the "Ignored Devices"
+7. Click "Save Changes"
+8. Restart Homebridge again (HOOBS should automatically restart)
+9. The accessory should be re-added by the plugin (you can verify this through the logs)
