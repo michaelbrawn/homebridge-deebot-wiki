@@ -1,18 +1,23 @@
-> Note this guide only applies to Homebridge users and also have Homebridge [installed as a service](https://github.com/oznu/homebridge-config-ui-x/wiki/Homebridge-Service-Command).
+## Method 1 (Homebridge UI)
 
-Removing an accessory from the cache is sometimes needed to take advantage of new features added to this plugin. If you remove an accessory from the cache it will simply be re-added again when Homebridge restarts.
-
-This will, however, reset it's room designation in the Home app and it will remove the accessory from any automations it is currently in.
-
-### 1. Go to `Homebridge Settings`
-Click on the `⋮` in the top right hand corner and click on `Homebridge Settings`.
-
-![Homebridge Settings](https://user-images.githubusercontent.com/43026681/93014435-ff043c80-f5a8-11ea-9431-ebe3e71a2206.png)
-### 2. Go to `Manage Cached Accessories`
-From the `Homebridge Settings` page, scroll down to the `Manage Cached Accessories` section. Click the box to open the `Remove Single Cached Accessory` option. If you don't see this section then you probably don't have Homebridge [installed as a service].(https://github.com/oznu/homebridge-config-ui-x/wiki/Homebridge-Service-Command)
+You can use the `Remove Single Cached Accessory` option within `Homebridge Settings` to remove an accessory from the cache.
 
 ![Manage Cached Accessories](https://user-images.githubusercontent.com/43026681/93014440-0e838580-f5a9-11ea-9764-31f5b139f3f7.png)
-### 3. Remove the accessory
-A list of your cached accessories will appear. Scroll to find the accessory you wish to remove from the cache and click the corresponding delete icon. After you click on the delete icon, the accessory will be removed and Homebridge will **automatically** restart. The accessory will then be re-added.
 
-![Remove the Accessory](https://user-images.githubusercontent.com/43026681/93014455-1e02ce80-f5a9-11ea-844c-ba9de4d650eb.png)
+Once removed, Homebridge will automatically restart and the accessory should be re-added by the plugin (you can verify this through the logs)
+
+## Method 2 (HOOBS)
+
+If the above option isn't available or you use HOOBS you can use the `ignoredDevices` configuration option.
+
+1. Add the Device ID to the "Ignored Devices" settings entry
+2. Click "Save Changes"
+3. Restart Homebridge (HOOBS should automatically restart)
+3. If you watch the logs during the restart, you should see a message that says something like:
+
+```13/01/2021, 06:52:20 [plugin] [Device] has been removed from Homebridge.```
+
+4. Once it has been removed, you should return to the Configuration and remove the Device ID from the "Ignored Devices"
+5. Click "Save Changes"
+6. Restart Homebridge again (HOOBS should automatically restart)
+7. The accessory should be re-added by the plugin (you can verify this through the logs)
