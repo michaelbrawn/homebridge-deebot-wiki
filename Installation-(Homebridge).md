@@ -1,6 +1,6 @@
 ## 1. Install
 
-### - Using Homebridge Config UI X
+### Using Homebridge UI
 
 Simply go to the "Plugins" page, search `homebridge-deebot` and click "Install".
 
