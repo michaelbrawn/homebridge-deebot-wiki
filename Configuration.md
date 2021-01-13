@@ -11,7 +11,7 @@ Add the following to your configuration file in the appropriate place. These fol
 ```
 ⚠️ The `"platform": "Deebot"` line **must not** be changed.
 
-> `countryCode` must be one of `AU`, `BE`, `CH`, `CN`, `DE`, `DK`, `ES`, `FR`, `HK`,`IN`, `IT`, `JP`, `KR`, `MX`, `MY`, `NL`, `NO`, `PT`, `SE`, `SG`, `TH`, `TW`,`UK`, `US`, `OTHER`
+See [[Country Codes]] for a list of country codes.
 
 ## Optional Settings
 
