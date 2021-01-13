@@ -15,6 +15,6 @@ A configuration screen will appear after installing the plugin where you can ent
 
 Please see the [[Configuration]] page for JSON configuration templates and other optional settings.
 
-## 3. HOOBS Restart
+## 3. Restart HOOBS
 
 After saving your configuration, HOOBS will automatically restart and voila your eWeLink devices *should* be added to your HOOBS instance.
