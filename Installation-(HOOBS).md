@@ -1,6 +1,6 @@
 ## 1. Install
 
-### - Using HOOBS UI
+### Using HOOBS UI
 
 * From the "Plugins" tab, click on "Search" and search for `homebridge-deebot`.
 * Find the `homebridge-deebot` entry and click "Install".
