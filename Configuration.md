@@ -61,8 +61,8 @@ See [[Country Codes]] for a list of allowed country codes.
 <tr>
 <td><code>lowBattThreshold</code></td>
 <td align="center"><code>integer</code></td>
-<td align="center"><code>20</code></td>
-<td>The battery percentage at which the plugin should display a low battery status. Must be 1 or more.</td>
+<td align="center"><code>15</code></td>
+<td>The battery percentage at which the plugin should display a low battery status. Leave blank to match the Deebot default of 15%. Must be 1 or more.</td>
 </tr>
 <tr>
 <td><code>showBattHumidity</code></td>
