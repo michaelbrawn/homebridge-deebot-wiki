@@ -65,6 +65,12 @@ See [[Country Codes]] for a list of allowed country codes.
 <td>The battery percentage at which the plugin should display a low battery status. Leave blank to match the Deebot default of 15%. Must be 1 or more.</td>
 </tr>
 <tr>
+<td><code>showMotionLowBatt</code></td>
+<td align="center"><code>bool</code></td>
+<td align="center"><code>false</code></td>
+<td>If <code>true</code>, the motion sensor will activate when the Deebot's battery reaches the low battery threshold.</td>
+</tr>
+<tr>
 <td><code>showBattHumidity</code></td>
 <td align="center"><code>bool</code></td>
 <td align="center"><code>false</code></td>
