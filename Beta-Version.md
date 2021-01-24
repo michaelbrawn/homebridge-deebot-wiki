@@ -32,7 +32,9 @@ You will need to restart Homebridge each time you change the version of the plug
 
 ⚠️ Make sure you have already installed the latest version of the plugin through the HOOBS UI.
 
-First stop the HOOBS service. Then using the HOOBS terminal run these commands separately:
+First stop the HOOBS service.
+
+Then using the HOOBS terminal run these commands separately:
 
 ```bash
 cd ~/.hoobs/
