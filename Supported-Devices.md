@@ -14,16 +14,17 @@ These models are known to work by the `ecovacs-deebot` client so should work wit
 
 * Slim 2
 * 600/601
-* 710/711
+* 900
 * U2
 * Ozmo 610
 * Ozmo 900
-* Ozmo T8/T8+
-* Ozmo T8 AIVI
+* Ozmo T5
+* Ozmo T8 Series
 * Ozmo Slim 10
 
 These models might work by the `ecovacs-deebot` client so might work with this plugin:
 
 * M88
 * 605
+* 710/711
 * U2 Pro/Power
