@@ -2,6 +2,10 @@ If you're feeling brave, I also have a beta version, often with new features or 
 
 There is no need to uninstall your current version of the plugin for any of these platforms.
 
+The current versions of the plugin are:
+
+[![npm](https://img.shields.io/npm/v/homebridge-deebot/latest?label=latest)](https://www.npmjs.com/package/homebridge-deebot) [![npm](https://img.shields.io/npm/v/homebridge-deebot/beta?label=beta)](https://github.com/bwp91/homebridge-deebot/wiki/Beta-Version)  
+
 ## Homebridge UI
 
 You can use the `Install Previous Version` feature to install a beta version.
