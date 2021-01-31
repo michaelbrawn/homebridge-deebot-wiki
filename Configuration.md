@@ -47,12 +47,6 @@ See [[Country Codes]] for a list of allowed country codes.
 <td>If <code>true</code>, the plugin will remove all accessories and not load the plugin on restart.</td>
 </tr>
 <tr>
-<td><code>ignoredDevices</code></td>
-<td align="center"><code>string</code></td>
-<td align="center"><code>""</code></td>
-<td>A list of devices to ignore by device id. For example <code>"E2000000000000000000"</code> or multiple separated with a comma.</td>
-</tr>
-<tr>
 <td><code>motionDuration</code></td>
 <td align="center"><code>integer</code></td>
 <td align="center"><code>30</code></td>
@@ -75,5 +69,21 @@ See [[Country Codes]] for a list of allowed country codes.
 <td align="center"><code>bool</code></td>
 <td align="center"><code>false</code></td>
 <td>If <code>true</code>, a humidity sensor showing the battery percentage will be shown.</td>
+</tr>
+<tr>
+<td><code>ignoredDevices</code></td>
+<td align="center"><code>array</code></td>
+<td align="center"><code>[]</code></td>
+<td>
+
+A list of devices to ignore by Device ID. For example:
+
+```json
+[
+   "E2000000000000000000"
+]
+```
+
+</td>
 </tr>
 </table>
