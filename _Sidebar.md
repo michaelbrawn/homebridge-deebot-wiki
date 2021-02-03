@@ -1,10 +1,10 @@
 **Setup**
 * [[Installation (Homebridge)]]
 * [[Installation (HOOBS)]]
-* [[Configuration]]
 * [[Country Codes]]
 
 **Features**
+* [[Configuration]]
 * [[Supported Devices]]
 * [[Beta Version]]
 
