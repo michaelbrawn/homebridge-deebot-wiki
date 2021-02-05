@@ -47,6 +47,12 @@ See [[Country Codes]] for a list of allowed country codes.
 <td>If <code>true</code>, the plugin will remove all accessories and not load the plugin on restart.</td>
 </tr>
 <tr>
+<td><code>hideMotionSensor</code></td>
+<td align="center"><code>bool</code></td>
+<td align="center"><code>false</code></td>
+<td>If <code>true</code>, the motion sensor for device alerts will be hidden.</td>
+</tr>
+<tr>
 <td><code>motionDuration</code></td>
 <td align="center"><code>integer</code></td>
 <td align="center"><code>30</code></td>
