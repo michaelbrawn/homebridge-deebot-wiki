@@ -1,4 +1,4 @@
-At the time of writing, the current LTS version of node.js is v14.15.4 as is the version I recommend to all users.
+At the time of writing, the current LTS version of node.js is v14.15.5 as is the version I recommend to all users.
 
 ⚠️ Note that v15 is unsupported and will most likely lead to errors
 
@@ -13,7 +13,7 @@ Only do this if you are comfortable with accessing your HOOBS instance via SSH a
 1. Run this command in the HOOBS terminal to update your version of node:
 
 ```bash
-wget -q -O - http://bit.ly/get-hoobs | sudo bash /dev/stdin --node 14.15.4
+wget -q -O - http://bit.ly/get-hoobs | sudo bash /dev/stdin --node 14.15.5
 ```
 
 2. Once this has finished it's a good idea to restart the HOOBS server
