@@ -32,7 +32,7 @@ See [[Country Codes]] for a list of allowed country codes.
 <td><code>disableDeviceLogging</code></td>
 <td align="center"><code>bool</code></td>
 <td align="center"><code>false</code></td>
-<td>If <code>true</code>, device updates will not be added to the log.</td>
+<td>If <code>true</code>, updates for all devices will not be added to the log when they are controlled.</td>
 </tr>
 <tr>
 <td><code>debug</code></td>
