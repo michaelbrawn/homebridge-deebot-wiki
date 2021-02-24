@@ -1,6 +1,8 @@
-At the time of writing, the current LTS version of node.js is v14.16.0 as is the version I recommend to all users.
+## Supported Node Versions
 
-⚠️ Note that v15 is unsupported and will most likely lead to errors
+* This plugin works with Node v10, v12 and v14.
+* I recommend using Node v14.16.0 and if you are running an earlier version then you may receive a warning saying the plugin is incompatible (this is not the case as per the point above).
+* The reason for displaying this warning is a helpful reminder that a newer version of Node is available and, for good practice, updating would be a good idea.
 
 ## Homebridge
 
@@ -12,20 +14,20 @@ Only do this if you are comfortable with accessing your HOOBS instance via SSH a
 
 1. Run this command in the HOOBS terminal to update your version of node:
 
-```bash
-wget -q -O - http://bit.ly/get-hoobs | sudo bash /dev/stdin --node 14.16.0
-```
+    ```bash
+    wget -q -O - http://bit.ly/get-hoobs | sudo bash /dev/stdin --node 14.16.0
+    ```
 
 2. Once this has finished it's a good idea to restart the HOOBS server
 3. If the HOOBS UI becomes unresponsive, access your HOOBS instance via SSH and run these two commands separately:
 
-```bash
-sudo npm uninstall -g @hoobs/hoobs
-sudo npm install -g --unsafe-perm @hoobs/hoobs
-```
+    ```bash
+    sudo npm uninstall -g @hoobs/hoobs
+    sudo npm install -g --unsafe-perm @hoobs/hoobs
+    ```
 
 4. Once this is complete, the HOOBS UI should become available again with node updated. You can verify the system's version of node in the HOOBS terminal by running:
 
-```bash
-node -v
-```
+    ```bash
+    node -v
+    ```
