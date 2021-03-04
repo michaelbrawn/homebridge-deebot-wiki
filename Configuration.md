@@ -1,5 +1,5 @@
 ## Required Settings
-Add the following to your configuration file in the appropriate place. These following are the basic required fields.
+Add the following to your configuration file in the appropriate place. The following are the basic required fields.
 ```json
 {
    "name": "Deebot",
