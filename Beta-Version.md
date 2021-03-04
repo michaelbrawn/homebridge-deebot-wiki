@@ -8,7 +8,7 @@ The current versions of the plugin are:
 
 ## Homebridge UI
 
-You can use the `Install Previous Version` feature to install a beta version.
+You can use the 'Install Previous Version' feature to install a beta version.
 
 ![Feature Icon](https://user-images.githubusercontent.com/43026681/109934132-11437580-7cc4-11eb-9e50-e504c8a754fc.png)
 
