@@ -34,18 +34,20 @@ You will need to restart Homebridge each time you change the version of the plug
 
 ## HOOBS UI
 
-⚠️ Make sure you have already installed the latest version of the plugin through the HOOBS UI.
+⚠️ Make sure you have already used the HOOBS UI to install the plugin.
 
-First stop the HOOBS service.
+1. Stop the HOOBS service
 
-Then using the HOOBS terminal run these commands separately:
+2. Using the HOOBS terminal run these commands separately:
 
-```bash
-cd ~/.hoobs/
-npm install homebridge-deebot@beta
-```
+    ```bash
+    cd ~/.hoobs/
+    npm install homebridge-deebot@beta
+    ```
 
-To revert back to the stable version, run the following commands in your HOOBS terminal.
+3. Start HOOBS again
+
+To revert back to the stable version, follow the steps above replacing the two commands with the two below.
 
 ```bash
 cd ~/.hoobs/
