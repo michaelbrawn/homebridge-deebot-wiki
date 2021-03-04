@@ -10,7 +10,7 @@ The current versions of the plugin are:
 
 You can use the `Install Previous Version` feature to install a beta version.
 
-![Feature Icon](https://user-images.githubusercontent.com/43026681/98367572-beb3be80-202d-11eb-8e5b-f4beaba2c42d.png)
+![Feature Icon](https://user-images.githubusercontent.com/43026681/109934132-11437580-7cc4-11eb-9e50-e504c8a754fc.png)
 
 This icon can be used to select a version of the plugin to install. The latest beta version is usually at the top of the list.
 
