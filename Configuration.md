@@ -29,7 +29,7 @@ Add the following to your configuration file in the appropriate place. The follo
 <td><code>refreshTime</code></td>
 <td align="center"><code>integer</code></td>
 <td align="center"><code>120</code></td>
-<td>An interval (in seconds) in which your devices will refresh with ECOVACS. Must be 30 or more.</td>
+<td>An interval (in seconds) in which your devices will refresh with ECOVACS. Must be <code>30</code> or more.</td>
 </tr>
 <tr>
 <td><code>disableDeviceLogging</code></td>
@@ -59,13 +59,13 @@ Add the following to your configuration file in the appropriate place. The follo
 <td><code>motionDuration</code></td>
 <td align="center"><code>integer</code></td>
 <td align="center"><code>30</code></td>
-<td>The length of time (in seconds) that the motion detector will be activated if your Deebot sends a message or needs help. The message is viewable in the log. Must be 1 or more.</td>
+<td>The length of time (in seconds) that the motion detector will be activated if your Deebot sends a message or needs help. The message is viewable in the log. Must be <code>1</code> or more.</td>
 </tr>
 <tr>
 <td><code>lowBattThreshold</code></td>
 <td align="center"><code>integer</code></td>
 <td align="center"><code>15</code></td>
-<td>The battery percentage at which the plugin should display a low battery status. Leave blank to match the Deebot default of 15%. Must be 1 or more.</td>
+<td>The battery percentage at which the plugin should display a low battery status. Leave blank to match the Deebot default of 15%. Must be <code>1</code> or more.</td>
 </tr>
 <tr>
 <td><code>showMotionLowBatt</code></td>
