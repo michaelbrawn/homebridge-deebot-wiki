@@ -1,3 +1,5 @@
+* ℹ️ This configuration assumes the latest version of the plugin.
+
 ## Required Settings
 Add the following to your configuration file in the appropriate place. The following are the basic required fields.
 ```json
@@ -9,7 +11,7 @@ Add the following to your configuration file in the appropriate place. The follo
    "platform": "Deebot"
 }
 ```
-⚠️ The `"platform": "Deebot"` line **must not** be changed.
+* ⚠️ The `"platform": "Deebot"` line **must not** be changed.
 
 * See [[Country Codes]] for a list of allowed country codes
 * If your account is based in China you should use your ECOVACS ID for your username
