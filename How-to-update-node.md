@@ -10,6 +10,8 @@
 
 ## HOOBS
 
+⚠️ These steps apply to HOOBS v3 (not v4).
+
 Only do this if you are comfortable with accessing your HOOBS instance via SSH as in some circumstances this will be required.
 
 1. Run this command in the HOOBS terminal to update your version of node:
