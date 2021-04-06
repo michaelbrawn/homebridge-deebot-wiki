@@ -34,7 +34,7 @@ You will need to restart Homebridge each time you change the version of the plug
 
 ## HOOBS UI
 
-⚠️ Make sure you have already used the HOOBS UI to install the plugin.
+⚠️ These steps apply to HOOBS v3 (not v4). Make sure you have already used the HOOBS UI to install the plugin.
 
 1. Stop the HOOBS service
 
