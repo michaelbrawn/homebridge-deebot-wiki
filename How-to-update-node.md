@@ -1,7 +1,7 @@
 ## Supported Node Versions
 
 * This plugin works with Node v10, v12 and v14.
-* I recommend using Node v14.16.0 and if you are running an earlier version then you may receive a warning saying the plugin is incompatible (this is not the case as per the point above).
+* I recommend using Node v14.16.1 and if you are running an earlier version then you may receive a warning saying the plugin is incompatible (this is not the case as per the point above).
 * The reason for displaying this warning is a helpful reminder that a newer version of Node is available and, for good practice, updating would be a good idea.
 
 ## Homebridge
