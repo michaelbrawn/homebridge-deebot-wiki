@@ -8,7 +8,8 @@
 * [[Supported Devices]]
 * [[Beta Version]]
 
-**About**
-* [About Me](https://github.com/sponsors/bwp91)
-* [Changelog](https://github.com/bwp91/homebridge-deebot/releases)
+**Help/About**
+* [[Common Errors]]
 * [Support Request](https://github.com/bwp91/homebridge-deebot/issues/new/choose)
+* [Changelog](https://github.com/bwp91/homebridge-deebot/blob/latest/CHANGELOG.md)
+* [About Me](https://github.com/sponsors/bwp91)
