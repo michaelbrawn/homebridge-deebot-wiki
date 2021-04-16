@@ -1,9 +1,9 @@
 **Setup**
-* [[Installation)]]
+* [[Installation]]
 * [[Configuration]]
 * [[Beta Version]]
 * [[Node Version]]
-* [[Uninstallation)]]
+* [[Uninstallation]]
 
 **Features**
 * [[Supported Devices]]
