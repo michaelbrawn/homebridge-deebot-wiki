@@ -1,12 +1,12 @@
 **Setup**
-* [[Installation (Homebridge)]]
-* [[Installation (HOOBS)]]
-* [[Country Codes]]
+* [[Installation)]]
+* [[Configuration]]
+* [[Beta Version]]
+* [[Node Version]]
+* [[Uninstallation)]]
 
 **Features**
-* [[Configuration]]
 * [[Supported Devices]]
-* [[Beta Version]]
 
 **Help/About**
 * [[Common Errors]]
