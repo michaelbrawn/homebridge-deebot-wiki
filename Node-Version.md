@@ -4,13 +4,19 @@
 * I recommend using Node v14.16.1 and if you are running an earlier version then you may receive a warning saying the plugin is incompatible (this is not the case as per the point above).
 * The reason for displaying this warning is a helpful reminder that a newer version of Node is available and, for good practice, updating would be a good idea.
 
-## Homebridge
+## Updating Node
+
+### Homebridge
 
 * Please see the [How To Update Node.js](https://github.com/homebridge/homebridge/wiki/How-To-Update-Node.js) article on the Homebridge wiki.
 
-## HOOBS
+### HOOBS v4
 
-⚠️ These steps apply to HOOBS v3 (not v4).
+* You can use the 'Check for Updates' feature to update your Node version:
+
+    ![hoobs 4 node update](https://user-images.githubusercontent.com/43026681/114992866-1f73dc80-9e93-11eb-9f4b-a511d1522d1e.png)
+
+## HOOBS v3
 
 Only do this if you are comfortable with accessing your HOOBS instance via SSH as in some circumstances this will be required.
 
