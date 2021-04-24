@@ -12,7 +12,6 @@ Add the following to your configuration file in the appropriate place. The follo
 * ⚠️ The `"platform": "Deebot"` line **must not** be changed.
 
 * See [[Country Codes]] for a list of allowed country codes
-* If your account is based in China you should use your ECOVACS ID for your username
 
 ## Optional Settings
 
