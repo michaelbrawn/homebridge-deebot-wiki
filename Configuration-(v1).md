@@ -1,5 +1,3 @@
-⚠️ This configuration assumes the latest version of the plugin.
-
 ## Required Settings
 Add the following to your configuration file in the appropriate place. The following are the basic required fields.
 ```json
