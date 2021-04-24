@@ -52,34 +52,37 @@ Add the following to your configuration file in the appropriate place. The follo
 <td>If <code>true</code>, the plugin will remove all accessories and not load the plugin on restart.</td>
 </tr>
 <tr>
-<td><code>hideMotionSensor</code></td>
-<td align="center"><code>bool</code></td>
-<td align="center"><code>false</code></td>
-<td>If <code>true</code>, the motion sensor for device alerts will be hidden.</td>
-</tr>
-<tr>
-<td><code>motionDuration</code></td>
-<td align="center"><code>integer</code></td>
-<td align="center"><code>30</code></td>
-<td>The length of time (in seconds) that the motion detector will be activated if your Deebot sends a message or needs help. The message is viewable in the log. Must be <code>1</code> or more.</td>
-</tr>
-<tr>
-<td><code>lowBattThreshold</code></td>
-<td align="center"><code>integer</code></td>
-<td align="center"><code>15</code></td>
-<td>The battery percentage at which the plugin should display a low battery status. Leave blank to match the Deebot default of 15%. Must be <code>1</code> or more.</td>
-</tr>
-<tr>
-<td><code>showMotionLowBatt</code></td>
-<td align="center"><code>bool</code></td>
-<td align="center"><code>false</code></td>
-<td>If <code>true</code>, the motion sensor will activate when the Deebot's battery reaches the low battery threshold.</td>
-</tr>
-<tr>
-<td><code>showBattHumidity</code></td>
-<td align="center"><code>bool</code></td>
-<td align="center"><code>false</code></td>
-<td>If <code>true</code>, a humidity sensor showing the battery percentage will be shown.</td>
+<td><code>devices</code></td>
+<td align="center"><code>array</code></td>
+<td align="center"><code>[]</code></td>
+<td>
+
+An array of objects to define custom options for your Deebot devices.
+* `deviceId` - Deebot Device ID
+* `label` - This setting has no effect except to be a helpful label for identifying which device this is when editing the configuration
+* `hideMotionSensor` - If <code>true</code>, the motion sensor for device alerts will be hidden
+* `motionDuration` - The length of time (in seconds) that the motion detector will be activated if your Deebot sends a message or needs help. The message is viewable in the log. Must be <code>1</code> or more
+* `lowBattThreshold` - The battery percentage at which the plugin should display a low battery status. Leave blank to match the Deebot default of 15%. Must be <code>1</code> or more
+* `showMotionLowBatt` - If <code>true</code>, the motion sensor will activate when the Deebot's battery reaches the low battery threshold
+* `showBattHumidity` - If <code>true</code>, a humidity sensor showing the battery percentage will be shown
+
+Example:
+
+```json
+[
+   {
+      "deviceId": "E2000000000000000000",
+      "label": "Hoover Device",
+      "hideMotionSensor": false,
+      "motionDuration": 120,
+      "lowBattThreshold": 20,
+      "showMotionLowBatt": false,
+      "showBattHumidity": true
+   }
+]
+```
+
+</td>
 </tr>
 <tr>
 <td><code>ignoredDevices</code></td>
