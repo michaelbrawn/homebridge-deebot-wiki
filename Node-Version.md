@@ -1,7 +1,7 @@
 ## Supported Node Versions
 
 * This plugin works with Node v12 and v14.
-* I recommend using Node v14.16.1 and if you are running an earlier version then you may receive a warning saying the plugin is incompatible (this is not the case as per the point above).
+* I recommend using Node v14.17.0 and if you are running an earlier version then you may receive a warning saying the plugin is incompatible (this is not the case as per the point above).
 * The reason for displaying this warning is a helpful reminder that a newer version of Node is available and, for good practice, updating would be a good idea.
 
 ## Updating Node
@@ -23,7 +23,7 @@ Only do this if you are comfortable with accessing your HOOBS instance via SSH a
 1. Run this command in the HOOBS terminal to update your version of node:
 
     ```bash
-    wget -q -O - http://bit.ly/get-hoobs | sudo bash /dev/stdin --node 14.16.1
+    wget -q -O - http://bit.ly/get-hoobs | sudo bash /dev/stdin --node 14.17.0
     ```
 
 2. Once this has finished it's a good idea to restart the HOOBS server
