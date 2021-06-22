@@ -37,13 +37,13 @@ Add the following to your configuration file in the appropriate place. The follo
 <td><code>disableDeviceLogging</code></td>
 <td align="center"><code>bool</code></td>
 <td align="center"><code>false</code></td>
-<td>If <code>true</code>, updates for all devices will not be added to the log when they are controlled.</td>
+<td>Global logging setting for accessory status changes. If <code>true</code> then accessory status changes will not be logged. This can also be set per accessory later in the config.</td>
 </tr>
 <tr>
 <td><code>debug</code></td>
 <td align="center"><code>bool</code></td>
 <td align="center"><code>false</code></td>
-<td>If <code>true</code>, more information will be added to the log.</td>
+<td>Global logging setting for the plugin. If <code>true</code> then debug information will be added to the log. This can also be set per accessory later in the config.</td>
 </tr>
 <tr>
 <td><code>disablePlugin</code></td>
@@ -65,6 +65,7 @@ An array of objects to define custom options for your Deebot devices.
 * `lowBattThreshold` - The battery percentage at which the plugin should display a low battery status. Leave blank to match the Deebot default of 15%. Must be <code>1</code> or more
 * `showMotionLowBatt` - If <code>true</code>, the motion sensor will activate when the Deebot's battery reaches the low battery threshold
 * `showBattHumidity` - If <code>true</code>, a humidity sensor showing the battery percentage will be shown
+* `overrideLogging` - Override global logging setting for this device. Can be `default` (follows global setting), `standard` for standard logging, `debug` for debug logging or `disable` to disable accessory logging
 
 Example:
 
@@ -77,7 +78,8 @@ Example:
       "motionDuration": 120,
       "lowBattThreshold": 20,
       "showMotionLowBatt": false,
-      "showBattHumidity": true
+      "showBattHumidity": true,
+      "overrideLogging": "default"
    }
 ]
 ```
