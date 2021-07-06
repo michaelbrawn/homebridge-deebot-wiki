@@ -59,7 +59,7 @@ Add the following to your configuration file in the appropriate place. The follo
 
 An array of objects to define custom options for your Deebot devices.
 * `deviceId` - Deebot Device ID
-* `label` - This setting has no effect except to be a helpful label for identifying which device this is when editing the configuration
+* `label` - This setting has no effect except to help identify this device
 * `hideMotionSensor` - If <code>true</code>, the motion sensor for device alerts will be hidden
 * `motionDuration` - The length of time (in seconds) that the motion detector will be activated if your Deebot sends a message or needs help. The message is viewable in the log. Must be <code>1</code> or more
 * `lowBattThreshold` - The battery percentage at which the plugin should display a low battery status. Leave blank to match the Deebot default of 15%. Must be <code>1</code> or more
