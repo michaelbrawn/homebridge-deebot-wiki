@@ -60,9 +60,5 @@ npm install homebridge-deebot@latest
 
 You will need to restart HOOBS each time you change the version of the plugin.
 
-## Further Updates
-
-A limitation of the beta version is that further beta updates are not displayed. To update to the latest beta (or check if an update is available) simply use the same command as above to install the beta. An update will display in Homebridge/HOOBS once the beta has been released as the stable version.
-
 ## Feedback
 If you experience an issue with the beta package then please create an issue on GitHub and mention that you are using the beta 😄.
