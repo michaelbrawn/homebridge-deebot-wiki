@@ -6,7 +6,7 @@ The current versions of the plugin are:
 
 [![npm](https://img.shields.io/npm/v/homebridge-deebot/latest?label=latest)](https://www.npmjs.com/package/homebridge-deebot) [![npm](https://img.shields.io/npm/v/homebridge-deebot/beta?label=beta)](https://github.com/bwp91/homebridge-deebot/wiki/Beta-Version)  
 
-## Homebridge UI
+### Homebridge UI
 
 You can use the 'Install Previous Version' feature to install a beta version.
 
@@ -14,7 +14,7 @@ You can use the 'Install Previous Version' feature to install a beta version.
 
 This icon can be used to select a version of the plugin to install. The latest beta version is usually at the top of the list.
 
-## Homebridge CLI
+### Homebridge CLI
 
 These commands will only work if you are using a platform which installs plugins globally.
 
@@ -32,9 +32,13 @@ sudo npm install homebridge-deebot@latest -g
 
 You will need to restart Homebridge each time you change the version of the plugin.
 
-## HOOBS UI
+### HOOBS 4
 
-⚠️ These steps apply to HOOBS v3 (not v4). Make sure you have already used the HOOBS UI to install the plugin.
+It is not currently possible to install the beta version of the plugin in HOOBS 4.
+
+### HOOBS 3
+
+⚠️ Make sure you have already used the HOOBS UI to install the latest version of the plugin.
 
 1. Stop the HOOBS service
 
