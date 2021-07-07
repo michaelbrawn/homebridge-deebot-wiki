@@ -10,13 +10,13 @@
 
 * Please see the [How To Update Node.js](https://github.com/homebridge/homebridge/wiki/How-To-Update-Node.js) article on the Homebridge wiki.
 
-### HOOBS v4
+### HOOBS 4
 
 * You can use the 'Check for Updates' feature to update your Node version:
 
     ![hoobs 4 node update](https://user-images.githubusercontent.com/43026681/114992866-1f73dc80-9e93-11eb-9f4b-a511d1522d1e.png)
 
-## HOOBS v3
+### HOOBS 3
 
 Only do this if you are comfortable with accessing your HOOBS instance via SSH as in some circumstances this will be required.
 
