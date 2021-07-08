@@ -61,4 +61,4 @@ npm install homebridge-deebot@latest
 You will need to restart HOOBS each time you change the version of the plugin.
 
 ## Feedback
-If you experience an issue with the beta package then please create an issue on GitHub and mention that you are using the beta 😄.
+If you experience an issue with the beta package then do create an issue on GitHub and mention that you are using the beta 😄.
