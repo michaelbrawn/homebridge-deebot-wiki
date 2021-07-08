@@ -1,5 +1,3 @@
-> If you are using v2.8.5 or below, please see [[Configuration (v2)]]
-
 ## Required Settings
 Add the following to your configuration file in the appropriate place. The following are the basic required fields.
 ```json
