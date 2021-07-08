@@ -8,7 +8,7 @@
 
 ### Homebridge
 
-* Please see the [How To Update Node.js](https://github.com/homebridge/homebridge/wiki/How-To-Update-Node.js) article on the Homebridge wiki.
+* See the [How To Update Node.js](https://github.com/homebridge/homebridge/wiki/How-To-Update-Node.js) article on the Homebridge wiki.
 
 ### HOOBS 4
 
