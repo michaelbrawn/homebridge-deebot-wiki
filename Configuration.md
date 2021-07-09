@@ -84,20 +84,4 @@ Example:
 
 </td>
 </tr>
-<tr>
-<td><code>ignoredDevices</code></td>
-<td align="center"><code>array</code></td>
-<td align="center"><code>[]</code></td>
-<td>
-
-A list of devices to ignore by Device ID. For example:
-
-```json
-[
-   "E2000000000000000000"
-]
-```
-
-</td>
-</tr>
 </table>
