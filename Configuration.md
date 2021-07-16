@@ -17,6 +17,8 @@ Add the following to your configuration file in the appropriate place. The follo
 
 ## Optional Settings
 
+⚠️ It is easier to use the Homebridge/HOOBS UI to configure these settings
+
 <table>
 <thead>
 <th>Entry</th>
@@ -68,7 +70,7 @@ An array of objects to define custom options for your Deebot devices.
 Example:
 
 ```json
-[
+"devices": [
    {
       "deviceId": "E2000000000000000000",
       "label": "Hoover Device",
