@@ -7,6 +7,8 @@
 
 **Features**
 * [[Supported Devices]]
+* [[Speed Control]]
+* [[Custom Areas]]
 
 **Help/About**
 * [[Common Errors]]
