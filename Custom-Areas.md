@@ -33,6 +33,8 @@ Here,
 
 Once the plugin has restarted (after editing the configuration), an extra button will appear within the accessory in the Eve app. You can use this to select a 'Custom Area' for the device to go to and clean. The button will show as value `0` (no area) and will revert back to `0` after a few seconds of choosing a number.
 
+In the example on this page, setting this value to `3` would command the device to clean the Kitchen and the Hall.
+
 ![Eve app example](https://user-images.githubusercontent.com/43026681/126317871-e2c974ad-3a44-49f3-8bbe-33170c8ba286.jpeg)
 
 You can use the Eve app to create scenes to set this value and these scenes will appear in the Home app.
