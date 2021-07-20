@@ -28,3 +28,7 @@ Here,
 * Custom Area 1 relates to the Bedroom (with Spot Area ID 13)
 * Custom Area 2 relates to the Kitchen (with Spot Area ID 11)
 * Custom Area 3 relates to both the Kitchen and the Hall (with Spot Area IDs 4 and 11)
+
+### Control Using Eve App
+
+Once the plugin has restarted (after editing the configuration), an extra button will appear within the accessory in the Eve app.
