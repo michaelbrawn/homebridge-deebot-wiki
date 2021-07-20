@@ -1,1 +1,1 @@
-This functionality requires the Eve App ➚ to initially set up.
+This functionality requires the [Eve App ➚](https://www.evehome.com/en/eve-app) to initially set up.
