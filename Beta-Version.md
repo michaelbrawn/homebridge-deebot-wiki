@@ -6,7 +6,7 @@ The current versions of the plugin are:
 
 [![npm](https://img.shields.io/npm/v/homebridge-deebot/latest?label=latest)](https://www.npmjs.com/package/homebridge-deebot) [![npm](https://img.shields.io/npm/v/homebridge-deebot/beta?label=beta)](https://github.com/bwp91/homebridge-deebot/wiki/Beta-Version)  
 
-### Homebridge UI
+### Homebridge (UI)
 
 You can use the 'Install Previous Version' feature to install a beta version.
 
@@ -14,7 +14,23 @@ You can use the 'Install Previous Version' feature to install a beta version.
 
 This icon can be used to select a version of the plugin to install. The latest beta version is usually at the top of the list.
 
-### Homebridge CLI
+### Homebridge (Docker)
+
+If Homebridge is installed using Docker use the following commands.
+
+To install the beta version:
+
+```bash
+docker exec <container-name> npm install homebridge-deebot@beta
+```
+
+To revert back to the latest stable version:
+
+```bash
+docker exec <container-name> npm install homebridge-deebot@latest
+```
+
+### Homebridge (CLI)
 
 These commands will only work if you are using a platform which installs plugins globally.
 
