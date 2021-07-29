@@ -1,3 +1,5 @@
+⚠️ It is recommended (and easier) to use the Homebridge/HOOBS UI plugin settings screen to configure the plugin
+
 ## Required Settings
 Add the following to your configuration file in the appropriate place. The following are the basic required fields.
 ```json
@@ -16,8 +18,6 @@ Add the following to your configuration file in the appropriate place. The follo
 * If your account is based in China you should use your ECOVACS ID for your username
 
 ## Optional Settings
-
-⚠️ It is easier to use the Homebridge/HOOBS UI to configure these settings
 
 <table>
 <thead>
