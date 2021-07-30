@@ -1,6 +1,6 @@
 ## Supported Node Versions
 
-* The recommended version of Node to run Homebridge with is currently v14.17.3
+* The recommended version of Node to run Homebridge with is currently v14.17.4
 * This plugin works with Node v12 and v14 - the versions of node that Homebridge officially supports
 * This plugin should work with Node v10 and v16 - however Homebridge **does not** officially support these versions
 
@@ -23,7 +23,7 @@ Only do this if you are comfortable with accessing your HOOBS instance via SSH a
 1. Run this command in the HOOBS terminal to update your version of node:
 
     ```bash
-    wget -q -O - http://bit.ly/get-hoobs | sudo bash /dev/stdin --node 14.17.3
+    wget -q -O - http://bit.ly/get-hoobs | sudo bash /dev/stdin --node 14.17.4
     ```
 
 2. Once this has finished it's a good idea to restart the HOOBS server
