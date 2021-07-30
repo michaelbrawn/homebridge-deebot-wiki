@@ -56,29 +56,5 @@ You will need to restart Homebridge each time you change the version of the plug
 4. The UI will prompt you to select a bridge for the installation, choose your existing Meross bridge
 5. The bridge will automatically restart and you can verify the plugin version in the startup logs
 
-### HOOBS 3
-
-⚠️ Make sure you have already used the HOOBS UI to install the latest version of the plugin.
-
-1. Stop the HOOBS service
-
-2. Using the HOOBS terminal run these commands separately:
-
-    ```bash
-    cd ~/.hoobs/
-    npm install homebridge-deebot@beta
-    ```
-
-3. Start HOOBS again
-
-To revert back to the stable version, follow the steps above replacing the two commands with the two below.
-
-```bash
-cd ~/.hoobs/
-npm install homebridge-deebot@latest
-```
-
-You will need to restart HOOBS each time you change the version of the plugin.
-
 ## Feedback
 If you experience an issue with the beta package then do create an issue on GitHub and mention that you are using the beta 😄.
