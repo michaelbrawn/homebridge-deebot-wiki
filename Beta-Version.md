@@ -53,7 +53,7 @@ You will need to restart Homebridge each time you change the version of the plug
 1. Go to the plugin page in the HOOBS UI and click on the 'Versions' tab
 2. In the 'Tags' section, click on the download icon next to the version with `beta` on the right hand side
 3. The version number will not be correct but this will still download the latest beta version
-4. The UI will prompt you to select a bridge for the installation, choose your existing Meross bridge
+4. The UI will prompt you to select a bridge for the installation, choose your existing Deebot bridge
 5. The bridge will automatically restart and you can verify the plugin version in the startup logs
 
 ## Feedback
