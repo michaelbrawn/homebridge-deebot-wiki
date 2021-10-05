@@ -1,9 +1,9 @@
 ## Supported Node Versions
 
+* This plugin works with Node v12, v14 and v16 - the versions of node that Homebridge officially supports
 * The recommended version of Node to run Homebridge with is currently:  
+
     ![node version](https://badgen.net/homebrew/v/node@14?label=nodejs&color=green)
-* This plugin works with Node v12 and v14 - the versions of node that Homebridge officially supports
-* This plugin should work with Node v10 and v16 - however Homebridge **does not** officially support these versions
 
 ## Updating Node
 
