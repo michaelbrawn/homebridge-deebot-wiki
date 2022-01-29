@@ -58,7 +58,7 @@ Add the following to your configuration file in the appropriate place. The follo
 
 An array of objects to define custom options for your Deebot devices.
 * `label` - This setting has no effect except to help identify this device
-* `deviceId` - Deebot Device ID
+* `deviceId` - Deebot Device ID. This can be found by restarting homebridge and inspecting the log line with "initialised with id" for the "did" value.
 * `ignoreDevice` - If <code>true</code>, this accessory will be removed and ignored from HomeKit
 * `hideMotionSensor` - If <code>true</code>, the motion sensor for device alerts will be hidden
 * `motionDuration` - The length of time (in seconds) that the motion detector will be activated if your Deebot sends a message or needs help. The message is viewable in the log. Must be <code>1</code> or more
